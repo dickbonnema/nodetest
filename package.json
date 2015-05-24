@@ -1,0 +1,11 @@
+{
+	"author": "Dick Bonnema",
+	"name": "censorify",
+	"version": "0.1.1",
+	"description": "Censors words out of text",
+	"main": "censortext",
+	"repository": { "type": "git", "url": "http://github.com/dickbonnema/nodetest" },
+	"keywords": [ "censor", "words" ],
+	"dependencies": {},
+	"engines": { "node": "*" }
+}

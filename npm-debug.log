@@ -1,0 +1,99 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'publish' ]
+2 info using npm@1.4.14
+3 info using node@v0.10.29
+4 verbose node symlink C:\Program Files\nodejs\\node.exe
+5 verbose publish [ '.' ]
+6 verbose cache add [ '.', null ]
+7 verbose cache add name=undefined spec="." args=[".",null]
+8 verbose parsed url { protocol: null,
+8 verbose parsed url   slashes: null,
+8 verbose parsed url   auth: null,
+8 verbose parsed url   host: null,
+8 verbose parsed url   port: null,
+8 verbose parsed url   hostname: null,
+8 verbose parsed url   hash: null,
+8 verbose parsed url   search: null,
+8 verbose parsed url   query: null,
+8 verbose parsed url   pathname: '.',
+8 verbose parsed url   path: '.',
+8 verbose parsed url   href: '.' }
+9 silly lockFile 3a52ce78- .
+10 verbose lock . C:\Users\Dick\AppData\Roaming\npm-cache\3a52ce78-.lock
+11 verbose tar pack [ 'C:\\Users\\Dick\\AppData\\Roaming\\npm-cache\\censorify\\0.1.1\\package.tgz',
+11 verbose tar pack   '.' ]
+12 verbose tarball C:\Users\Dick\AppData\Roaming\npm-cache\censorify\0.1.1\package.tgz
+13 verbose folder .
+14 info prepublish censorify@0.1.1
+15 silly lockFile 1f1177db-tar tar://.
+16 verbose lock tar://. C:\Users\Dick\AppData\Roaming\npm-cache\1f1177db-tar.lock
+17 silly lockFile 3da4b6f9-ache-censorify-0-1-1-package-tgz tar://C:\Users\Dick\AppData\Roaming\npm-cache\censorify\0.1.1\package.tgz
+18 verbose lock tar://C:\Users\Dick\AppData\Roaming\npm-cache\censorify\0.1.1\package.tgz C:\Users\Dick\AppData\Roaming\npm-cache\3da4b6f9-ache-censorify-0-1-1-package-tgz.lock
+19 silly lockFile 1f1177db-tar tar://.
+20 silly lockFile 1f1177db-tar tar://.
+21 silly lockFile 3da4b6f9-ache-censorify-0-1-1-package-tgz tar://C:\Users\Dick\AppData\Roaming\npm-cache\censorify\0.1.1\package.tgz
+22 silly lockFile 3da4b6f9-ache-censorify-0-1-1-package-tgz tar://C:\Users\Dick\AppData\Roaming\npm-cache\censorify\0.1.1\package.tgz
+23 silly lockFile 7fe916df-pm-cache-censorify-0-1-1-package C:\Users\Dick\AppData\Roaming\npm-cache\censorify\0.1.1\package
+24 verbose lock C:\Users\Dick\AppData\Roaming\npm-cache\censorify\0.1.1\package C:\Users\Dick\AppData\Roaming\npm-cache\7fe916df-pm-cache-censorify-0-1-1-package.lock
+25 silly lockFile 7fe916df-pm-cache-censorify-0-1-1-package C:\Users\Dick\AppData\Roaming\npm-cache\censorify\0.1.1\package
+26 silly lockFile 7fe916df-pm-cache-censorify-0-1-1-package C:\Users\Dick\AppData\Roaming\npm-cache\censorify\0.1.1\package
+27 silly lockFile 3a52ce78- .
+28 silly lockFile 3a52ce78- .
+29 silly publish { author: { name: 'Dick Bonnema' },
+29 silly publish   name: 'censorify',
+29 silly publish   version: '0.1.1',
+29 silly publish   description: 'Censors words out of text',
+29 silly publish   main: 'censortext',
+29 silly publish   repository: { type: 'git', url: 'http://github.com/dickbonnema/nodetest' },
+29 silly publish   keywords: [ 'censor', 'words' ],
+29 silly publish   dependencies: {},
+29 silly publish   engines: { node: '*' },
+29 silly publish   gitHead: '70645d0324e79f75eb6749d69e0d82d4be294938',
+29 silly publish   readme: '\r\n\r\n# censorify\r\nbla bla\r\n\r\n\r\n## Usage\r\n\r\nbla bla bla\r\n\r\n## Developing\r\n\r\nbla\r\n\r\n### Tools\r\n\r\nCreated with [Nodeclipse](https://github.com/Nodeclipse/nodeclipse-1)\r\n ([Eclipse Marketplace](http://marketplace.eclipse.org/content/nodeclipse), [site](http://www.nodeclipse.org))   \r\n\r\nNodeclipse is free open-source project that grows with your contributions.\r\n',
+29 silly publish   readmeFilename: 'README.md',
+29 silly publish   bugs: { url: 'https://github.com/dickbonnema/nodetest/issues' },
+29 silly publish   homepage: 'https://github.com/dickbonnema/nodetest',
+29 silly publish   _id: 'censorify@0.1.1',
+29 silly publish   scripts: {},
+29 silly publish   _shasum: '98aff0d5bcad99886b0a6c7145fd7ca2d520c3c3',
+29 silly publish   _from: '.' }
+30 verbose url raw censorify
+31 verbose url resolving [ 'https://registry.npmjs.org/', './censorify' ]
+32 verbose url resolved https://registry.npmjs.org/censorify
+33 info trying registry request attempt 1 at 22:59:12
+34 http PUT https://registry.npmjs.org/censorify
+35 http 404 https://registry.npmjs.org/censorify
+36 verbose headers { 'content-type': 'application/json',
+36 verbose headers   'cache-control': 'max-age=0',
+36 verbose headers   'content-length': '21',
+36 verbose headers   'accept-ranges': 'bytes',
+36 verbose headers   date: 'Sun, 24 May 2015 20:59:12 GMT',
+36 verbose headers   via: '1.1 varnish',
+36 verbose headers   connection: 'keep-alive',
+36 verbose headers   'x-served-by': 'cache-iad2135-IAD',
+36 verbose headers   'x-cache': 'MISS',
+36 verbose headers   'x-cache-hits': '0',
+36 verbose headers   'x-timer': 'S1432501152.014807,VS0,VE633' }
+37 error publish Failed PUT 404
+38 error Error: Not found : censorify
+38 error     at RegClient.<anonymous> (C:\Program Files\nodejs\node_modules\npm\node_modules\npm-registry-client\lib\request.js:274:14)
+38 error     at Request._callback (C:\Program Files\nodejs\node_modules\npm\node_modules\npm-registry-client\lib\request.js:212:65)
+38 error     at Request.self.callback (C:\Program Files\nodejs\node_modules\npm\node_modules\request\request.js:123:22)
+38 error     at Request.emit (events.js:98:17)
+38 error     at Request.<anonymous> (C:\Program Files\nodejs\node_modules\npm\node_modules\request\request.js:893:14)
+38 error     at Request.emit (events.js:117:20)
+38 error     at IncomingMessage.<anonymous> (C:\Program Files\nodejs\node_modules\npm\node_modules\request\request.js:844:12)
+38 error     at IncomingMessage.emit (events.js:117:20)
+38 error     at _stream_readable.js:929:16
+38 error     at process._tickCallback (node.js:419:13)
+39 error If you need help, you may report this *entire* log,
+39 error including the npm and node versions, at:
+39 error     <http://github.com/npm/npm/issues>
+40 error System Windows_NT 6.2.9200
+41 error command "C:\\Program Files\\nodejs\\\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "publish"
+42 error cwd C:\Users\Dick\Documents\GitHub\nodetest
+43 error node -v v0.10.29
+44 error npm -v 1.4.14
+45 verbose exit [ 1, true ]
